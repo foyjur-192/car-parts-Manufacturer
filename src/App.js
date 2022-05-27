@@ -15,6 +15,9 @@ import MyOrders from './Page/DashBoard/User/MyOrders';
 import AddAReview from './Page/DashBoard/User/AddAReview';
 import MyProfile from './Page/DashBoard/User/MyProfile';
 import Blog from './Page/Blog/Blog';
+import AllUser from './Page/DashBoard/Admin/AllUser';
+import AddAProduct from './Page/DashBoard/Admin/AddAProduct';
+
 
 
 
@@ -37,6 +40,8 @@ function App() {
    <Route index element={<MyOrders></MyOrders>}></Route>
    <Route path='addAReview' element={<AddAReview></AddAReview>}></Route>
    <Route path='myProfile' element={<MyProfile></MyProfile>}></Route>
+   <Route path='allUser' element={<AllUser></AllUser> }></Route>
+   <Route path='addProduct' element={ <AddAProduct></AddAProduct> }></Route>
 
 
 

@@ -18,19 +18,12 @@ const MyOrders = () => {
         })
        }
 
-
-
-
-
-
-
-
-
-    useEffect(() => {
+       useEffect(() => {
         fetch('http://localhost:5000/ordering')
         .then(res => res.json())
         .then(data => setLight(data));
         },[])
+
 
 
 
